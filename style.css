@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: radial-gradient(orange,white,darkgreen);
+    font-family: 'Patua One', cursive;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    padding: 30px;
+}
+p{
+    font-size: 25px;
+}
+h1{
+    color:orangered;
+}
+p{
+    color: orange;
+}
+img{
+    transition: transform 5s;
+  }
+  img:hover{
+    transform: rotate(360deg);
+    transform: scale(1.1);
+    animation: mymove 1s infinite;
+  }
+  .jai:hover{
+      color: darkblue;
+  }
+  .jai{
+      color: red;
+  }
